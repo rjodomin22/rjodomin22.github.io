@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: space-around; 
   padding: 30px;
   size: 300px;
   list-style: none;
@@ -52,4 +52,19 @@ hr{
   height: 1px;
   background-color: rgb(217, 4, 61);
   border-color:  rgb(217, 4, 61);
+}
+
+.portada{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.me{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-size: large;
+  text-align: center;
+  color: rgba(255, 254, 254);
+  font-family: "Poiret One";
 }
