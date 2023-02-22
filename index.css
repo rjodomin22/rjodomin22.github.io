@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
-
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: rgba(1,0,0);
   background-repeat: no-repeat;
@@ -27,8 +29,7 @@ body {
   size: 300px;
   list-style: none;
   gap: 10px 20px;
-  margin: 10px;
-  padding: 30px;
+  margin: 10px;  
 }
 
 .navigation li a{
@@ -36,10 +37,16 @@ body {
   font-family: "Poiret One";
   font-size: 100%;
   color: rgb(255, 254, 254);
+  padding: 20px;
+  float: left;
+  width: 20%;
 }
 
 .navigation li a:hover{
   background-color: rgb(140, 121, 109);
+  padding: 20px;
+  float: left;
+  width: 90%;
 }
 
 .logo{
@@ -54,16 +61,15 @@ hr{
   border-color:  rgb(217, 4, 61);
 }
 
-.portada{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.portadaF{
+  padding: 20px;
+  float: left;
+  width: 60%;
 }
 .me{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  font-size: large;
+  padding: 20px;
+  float: right;
+  width: 20%;
   text-align: center;
   color: rgba(255, 254, 254);
   font-family: "Poiret One";
