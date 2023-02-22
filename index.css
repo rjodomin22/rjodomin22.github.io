@@ -55,6 +55,9 @@ body {
   display:block;
   margin:auto;
 }
+.logo:hover{
+  filter: opacity(.5);
+}
 
 hr{
   height: 1px;
