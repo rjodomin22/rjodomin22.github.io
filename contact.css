@@ -1,0 +1,16 @@
+.contactF{
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+.meC{
+    padding: 20px;
+    float: right;
+    width: 20%;
+    text-align: center;
+    color: rgba(255, 254, 254);
+    font-family: "Poiret One";
+}
+footer{
+    padding:15px;
+  }
