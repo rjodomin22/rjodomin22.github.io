@@ -126,10 +126,55 @@ body {
 
 #audiovisualProjects{
   background-color: rgba( 1, 31, 38);
+  display: grid;
 }
+.mosaicAudiovisual{
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(3, 50px);
+  gap: 10px;
+  background: grey;
+  height: 300px;
+
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.projectAu{
+  padding: 20px;
+  float: left;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 #programmingProjects{
   background-color: #025E73;
 }
+.mosaicProg{  
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(3, 50px);
+  gap: 10px;
+  background: grey;
+  height: 300px;
+
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.projectProg{
+  padding: 20px;
+  float: left;
+  width: 50%;
+}
+
 #contactMe{
   background-color: rgba(242, 102, 139);
 }
