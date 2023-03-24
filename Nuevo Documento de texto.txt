@@ -1,5 +1,6 @@
- <ul>
-          <li><img src="img/pAu1/1.NEF" alt=""></li>
+<section class="slider">
+        <ul>
+          <li><img src="img/pAu1/1.jpg" alt=""></li>
           <li><img src="img/pAu2/1.jpg" alt=""></li>  
           <li><img src="img/pAu3/1.JPG" alt=""></li>  
           <li><img src="img/pAu4/portada.jpg" alt=""></li>
@@ -8,12 +9,64 @@
           <li><img src="img/pau8/1.jpg" alt=""></li>  
           <li><img src="img/pAu6/1.jpg" alt=""></li>        
         </ul>
+      </section>
 
 
+ARREGLO GRID IMAGENES PROYECTOS AUDIOVISUALES
 
+#pAu1{
+  grid-column: 1;
+  grid-row: 1;
+}
+#pAu2{
+  grid-column: 2;
+  grid-row: 1;
+}
+#pAu3{
+  grid-column: 1;
+  grid-row: 2;
+}
+#pAu4{
+  grid-column: 2;
+  grid-row: 2;
+}
+#pAu5{
+  grid-column: 1;
+  grid-row: 3;
+}
+#pAu6{
+  grid-column: 2;
+  grid-row: 4;
+}
+#pAu7{
+  grid-column: 2;
+  grid-row: 3;
+}
+#pAu8{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+LO QUE TENIA DEL SLIDER QUE FUNCIONA
+
+HTML
+<section class="slider">
+        <ul>
+          <li><img src="img/pAu1/2.jpg" alt=""></li>
+          <li><img src="img/pAu2/2.jpg" alt=""></li>  
+          <li><img src="img/pAu3/2.JPG" alt=""></li>  
+          <li><img src="img/pAu4/2.jpg" alt=""></li>
+          <li><img src="img/pAu5/2.jpg" alt=""></li>
+          <li><img src="img/pAu7/2.jpg" alt=""></li>  
+          <li><img src="img/pau8/2.jpg" alt=""></li>  
+          <li><img src="img/pAu6/2.jpg" alt=""></li>        
+        </ul>
+      </section>
+
+CSS
 
 .slider{
-  width: 95%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
 }
@@ -24,6 +77,7 @@
   width: 400%;
   animation: cambio 20s infinite alternate;
   animation-timing-function: ease-in;
+  justify-items: safe;
 }
 
 .slider li{
@@ -32,7 +86,7 @@
 }
 
 .slider img{
-  width: 50%;
+  width: 100%;
 }
 
 @keyframes cambio{
